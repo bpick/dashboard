@@ -11,8 +11,7 @@
     $ui: 'normal-cbx',
     $input-color: $text-color,
     $input-underline-color: $divider-color,
-    $input-underline-width: 1px,
-    $arrow-color: $text-color
+    $input-underline-width: 1px
 );
 
 @include trigger-ui(
