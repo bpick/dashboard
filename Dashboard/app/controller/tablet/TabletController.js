@@ -1,7 +1,7 @@
-Ext.define('Dashboard.controller.desktop.DesktopController', {
+Ext.define('Dashboard.controller.tablet.TabletController', {
     extend: 'Dashboard.controller.Main',
     init: function() {
-        console.log('Initialized Desktop! This happens before ' +
+        console.log('Initialized Tablet! This happens before ' +
                     'the Application launch() function is called');
     }
 });

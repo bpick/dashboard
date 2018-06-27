@@ -3,7 +3,8 @@
  */
 Ext.define('Core.profile.Base', {
     extend: 'Ext.app.Profile',
-    launch: function() {
+    launch: function(profile) {
         // launch profile
+        console.log(Ext.String.format('launch {0} profile', this.$className));
     }
 });

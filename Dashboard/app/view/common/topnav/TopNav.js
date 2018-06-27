@@ -1,4 +1,4 @@
-Ext.define('Dashboard.view.desktop.topnav.TopNav', {
+Ext.define('Dashboard.view.common.topnav.TopNav', {
     extend: 'Ext.Toolbar',
     alias: 'widget.topnav',
     shadow: false,
@@ -7,9 +7,19 @@ Ext.define('Dashboard.view.desktop.topnav.TopNav', {
         margin: '0px 8px'
     },
     items: [{
+        platformConfig: {
+            desktop: {
+                hidden: false
+            },
+            '!desktop': {
+                hidden: true
+            }
+        },
         xtype: 'togglenav',
         handler: 'toggleSideNav'
     }, {
+        xtype: 'checkupc'
+    },{
         xtype: 'spacer'
     }, {
         xtype: 'topsearch',

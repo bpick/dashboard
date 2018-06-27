@@ -1,8 +1,8 @@
-Ext.define('Dashboard.view.desktop.sidenav.SideNav', {
+Ext.define('Dashboard.view.common.sidenav.SideNav', {
     extend: 'VerticalLayout',
     alias: 'widget.sidenav',
     cls: Ext.baseCSSPrefix + 'sidenav',
-    width: 260,
+
     defaultWidth: 260,
     collapseWidth: 76,
     items: [{

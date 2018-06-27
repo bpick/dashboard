@@ -1,18 +1,18 @@
-Ext.define('Dashboard.profile.Desktop', {
+Ext.define('Dashboard.profile.Tablet', {
     extend: 'Core.profile.Base',
     requires:[
         'Core.profile.Base'
     ],
 
-    mainView: 'Dashboard.view.desktop.Main',
-    controllers: ['Dashboard.controller.desktop.DesktopController'],
+    mainView: 'Dashboard.view.tablet.Main',
+    controllers: ['Dashboard.controller.tablet.TabletController'],
     launch: function(profile) {
         ProfileUtil.set('profile', this.$className);
         // launch profile
         console.log(Ext.String.format('launch {0} profile', this.$className));
     },
     isActive: function () {
-        console.log('check desktop profile');
-        return Ext.os.is.Desktop;
+        console.log('check tablet profile');
+        return Ext.platformTags.tablet;
     }
 });

@@ -1,4 +1,4 @@
-Ext.define('Dashboard.view.sidebar.menu.Config', {
+Ext.define('Dashboard.view.common.sidenav.menu.Config', {
     extend: 'Ext.grid.Tree',
     xtype: 'config',
     requires: [

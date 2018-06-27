@@ -1,9 +1,9 @@
-Ext.define('Dashboard.view.desktop.Main', {
+Ext.define('Dashboard.view.tablet.Main', {
     extend: 'HorizontalLayout',
-    controller: 'main',
+    controller: 'tabletmain',
     items: [{
         xtype: 'sidenav',
-        width: 260,
+        width: 76,
         reference: 'sidenav'
     }, {
         xtype: 'baseview',

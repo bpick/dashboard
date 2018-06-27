@@ -15,9 +15,11 @@ Ext.define('Dashboard.Application', {
         }
     },
     profiles: [
-        'Dashboard.profile.Desktop'
+        'Dashboard.profile.Desktop',
+        'Dashboard.profile.Tablet'
     ],
     launch: function(profile) {
+        console.log('app launch');
         this.callParent([profile]);
     },
     onAppUpdate: function () {

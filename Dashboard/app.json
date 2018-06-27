@@ -46,6 +46,12 @@
         {
             "path": "app.js",
             "bundle": true
+        },
+        {
+            "path": "resources/scripts/prism/prism.js"
+        },
+        {
+            "path": "resources/scripts/barcoder.js"
         }
     ],
     "css": [
@@ -53,6 +59,9 @@
             "path": "${build.out.css.path}",
             "bundle": true,
             "exclude": ["fashion"]
+        },
+        {
+            "path": "resources/scripts/prism/prism.css"
         }
     ],
      "loader": {

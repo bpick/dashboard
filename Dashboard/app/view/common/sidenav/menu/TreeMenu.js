@@ -1,4 +1,4 @@
-Ext.define('Dashboard.view.sidebar.menu.TreeMenu', {
+Ext.define('Dashboard.view.common.sidenav.menu.TreeMenu', {
     extend: 'Ext.grid.Tree',
     xtype: 'treemenu',
     requires: [

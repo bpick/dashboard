@@ -1,4 +1,4 @@
-Ext.define('Dashboard.view.desktop.sidenav.NavHeader', {
+Ext.define('Dashboard.view.common.sidenav.NavHeader', {
     extend: 'Ext.Container',
     xtype: 'navheader',
     cls: Ext.baseCSSPrefix + 'nav-header',
